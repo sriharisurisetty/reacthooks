@@ -1,4 +1,5 @@
-function Home(){
-    return <div>This is Haritha page</div>
-}
+function Home() {
+    return <div></div>
+}  
+
 export default Home
