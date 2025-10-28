@@ -11,10 +11,14 @@ import NewProducts from "./components/NewProducts.jsx";
 import Users from "./components/Users.jsx";
 import UserDetails from "./components/UserDetails.jsx";
 import Profile from "./components/Profile.jsx";
+import HookCounter from "./HookComponents/HookCounter.jsx";
+import DataFetching from "./HookComponents/DataFetching.jsx";
 
 function App() {
   return (
-    <>
+
+    <DataFetching/>
+/*     <>
   <NavBar/>
       <Routes>
         <Route path="/" element={Home()} />
@@ -31,7 +35,7 @@ function App() {
         <Route path="users/:userId" element={<UserDetails />} />
         <Route path="profile" element={<Profile />} />
       </Routes>
-</>
+</> */
   )
 }
 
